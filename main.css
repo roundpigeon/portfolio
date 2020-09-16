@@ -24,10 +24,13 @@ h1 {
   font-size: 60px;
 }
 
+@media only screen and (min-width: 961px) {
+  .main {
+    width: 40vw;
+  }
+}
+
 .main {
-  width: 40vw;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #ffdbe9;
@@ -45,6 +48,7 @@ h1 {
   background-color: #ffdbe9;
   position: fixed;
   top: 0%;
+  left: 0%;
 }
 
 #menuheader {
@@ -52,17 +56,10 @@ h1 {
   margin-left: 20px;
 }
 
-#parallax {
-  /* The image used
-  background-image: url("rosesbackground.jpg");
-
-   Set a specific height
-  min-height: 100vw;
-  top: 0%;
-
-   Create the parallax scrolling effect
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+#mainbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }

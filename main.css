@@ -1,0 +1,68 @@
+body {
+  font-family: 'Comfortaa', sans-serif;
+  text-align: center;
+  /* background-color: #ffedf4; */
+  background-image: url("rosesbackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  text-align: left;
+  margin: 10px 0px 10px 20px;
+  background-color: #ffdbe9;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.main {
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffdbe9;
+  padding: 20px 20px 20px 20px;
+}
+
+.maintext {
+  text-align: left;
+  padding: 0px 20px 20px 20px;
+}
+
+#sidebar {
+  height: 100vw;
+  width: 10vw;
+  background-color: #ffdbe9;
+  position: fixed;
+  top: 0%;
+}
+
+#menuheader {
+  text-align: left;
+  margin-left: 20px;
+}
+
+#parallax {
+  /* The image used
+  background-image: url("rosesbackground.jpg");
+
+   Set a specific height
+  min-height: 100vw;
+  top: 0%;
+
+   Create the parallax scrolling effect
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}

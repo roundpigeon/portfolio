@@ -1,9 +1,13 @@
+#wrapper {
+  overflow-x: hidden;
+}
 
 body {
   font-family: 'Comfortaa', sans-serif;
   text-align: center;
   /* background-color: #ffedf4; */
   background-image: url("rosesbackground.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -21,9 +25,6 @@ li a {
   background-color: #ffdbe9;
 }
 
-h1 {
-  font-size: 60px;
-}
 
 .main {
   margin-top: 20px;
@@ -45,10 +46,10 @@ h1 {
   left: 0%;
 }
 
-#menuheader {
+/* #menuheader {
   text-align: left;
   margin-left: 20px;
-}
+} */
 
 #mainbox {
   display: flex;
@@ -58,10 +59,13 @@ h1 {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   body {
-    font-size: 20px;
+    background-image: url("rosesbackgroundphone.jpg");
+  }
+  h1 {
+    font-size: 13vw;
   }
   .main {
-    width: 30%;
+    width: 60%;
   }
   #sidebar {
     width: 20%;
@@ -80,7 +84,10 @@ h1 {
 
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   body {
-    font-size: 20px;
+    background-image: url("rosesbackgroundtablet.jpg");
+  }
+  h1 {
+    font-size: 7vw;
   }
   .main {
     width: 70%;
@@ -97,7 +104,10 @@ h1 {
 
 @media only screen and (min-width: 961px) {
   body {
-    font-size: 16px;
+
+  }
+  h1 {
+    font-size: 4vw;
   }
   .main {
     width: 40%;
